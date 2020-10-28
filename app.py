@@ -7,7 +7,7 @@ islem = input("Yapmak istediğiniz işlemi seçiniz:\n1-Görseli aç\n2-Görseli
 def image_resize():
     width = int(input("Genişliği giriniz: "))
     height = int(input("Yüksekliği giriniz: "))
-    new_img = img.resize((width,height))
+    new_img = img.resize(width,height)
     new_img.show()
 
 
